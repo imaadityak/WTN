@@ -1,4 +1,4 @@
-package wipex1;
+package com.wipro.languagebasic;
 
 public class wipex3 {
 
