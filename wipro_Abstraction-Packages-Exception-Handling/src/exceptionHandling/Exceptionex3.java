@@ -1,6 +1,5 @@
 package exceptionHandling;
 import java.util.*;
-import java.util.Scanner;
 public class Exceptionex3 
 {
 	public static void main(String[] args) {
@@ -56,5 +55,19 @@ public class Exceptionex3
 		
 		sc.close();
 
+	}
+
+}
+
+class NegativeValuesException extends Exceptionex3 {
+	public NegativeValuesException() {
+		super();
+		System.out.println("NegativeValuesException occured");
+	}
+}
+class ValuesOutOfRangeException extends Exceptionex3 {
+	public ValuesOutOfRangeException() {
+		super();
+		System.out.println("ValuesOutOfRangeException occured");
 	}
 }
